@@ -41,10 +41,49 @@
 
 // console.log(square(5));
 
-// //  chatgpt exercise
+// //  chatgpt exercise ****************************************
 
 // const summonGuard = (name) => {
 //     console.log(`${name}, the royal guard has arrived `);
 // }
 
 // summonGuard("Julius")
+
+
+
+
+// function generateTitle(name) {
+//     return `Sir ${name} of the realm`
+// }
+
+// const result = generateTitle("Poodge");
+// console.log(result);
+
+// const generateTitle = (name) => {
+//     return `Sir ${name} of the realm`
+// }
+
+// const result = generateTitle("Poodge");
+// console.log(result);
+
+
+// *********************************************************************
+// SCOPE
+
+// let globalVar = "I am a global variable";
+
+// function testScope() {
+//     let localVar = "I exist only in this function";
+//     console.log(globalVar); // works
+//     console.log(localVar); // works
+// }
+
+// testScope();
+// console.log(globalVar); // works
+// console.log(localVar); // will give error, variable localVar only exists in the function
+
+
+// **********************************
+// FUNCTION HOISTING
+
+
